@@ -1,0 +1,176 @@
+body
+{font-family: Arial, Helvetica, sans-serif;
+background: url(fond.jpg) fixed center/cover;
+height: 100vh;
+}
+
+#bloc_page
+{width: 1300px;
+margin:auto}
+
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+    section
+    {
+        flex-direction: column;
+    }
+    #coordonnees{
+        font-size: 30px;
+    }
+    tr{
+        font-size: 16px;
+    }
+    #Formation{
+        font-size: 16px;
+    }
+    #Mon_parcours{
+        font-size: 16px;
+    }
+    #le_monde{
+        font-size: 16px;
+    }
+    #Mes_centres_interet{
+        font-size: 16px;
+    }
+    #encadrement{
+        font-size: 16px;
+    }
+    #citoyen{
+        font-size: 16px;
+    }
+}
+
+/* navigation */
+
+a:hover{
+    color:yellow;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
+
+/* titre CV ELWEN COROLLER */
+h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color:darkblue;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+/* FUTUR ETUDIANT */
+h3{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    
+}
+section
+{
+    min-height: 1000px;
+    margin-top: 200px;
+}
+
+/* titre des sections comme formation */
+h2{
+    text-align: left;
+    font-weight: bold;
+    color: darkblue;
+    font-size: 28px;
+    border-bottom: 3px solid #1e4c68;
+    text-transform: uppercase;
+}
+
+strong{
+    font-size: 20px;
+    font-weight: bold;
+}
+mark{
+    background-color: yellow;
+}
+
+#photo
+{float: right;
+}
+
+#coordonnees{
+float: left;
+font-weight: bold;
+background-color: aqua;
+padding: 5px 5px 5px 5px;
+}
+
+
+#Formation
+{background-color: rgb(0, 255, 234);
+padding: 5px 20px 5px 20px;
+font-size: 16px;
+margin-bottom: 10px;
+text-align: justify;
+}
+
+#Mon_parcours{
+    background-color: #f7fc1c;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#le_monde{
+    Background-color: grey;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#Mes_centres_interet{
+    background-color: aliceblue;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#encadrement{
+    background-color: yellowgreen;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#citoyen{
+    background-color: mediumpurple;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#tableau_formation
+{border-spacing: 20px;}
+
+#tableau_parcours
+{border-spacing: 20px;}
+
+#tableau_monde
+{border-spacing: 20px;}
+
+#tableau_intérêt
+{border-spacing: 20px;}
+
+#tableau_encadrement
+{border-spacing: 20px;}
+
+#tableau_citoyen
+{border-spacing: 20px;}
